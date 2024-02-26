@@ -1,0 +1,11 @@
+Linked List
+------------
+Linked lists are like an array. They are an ordered collection of elements.
+Linked list is data structure that is similar to an array. It also stores data in an ordered manner.
+Linked list keep a reference to ensure that never lose any element.
+
+The main advantage of linked list is that you can add or remove element at any position in O(1). The condition is that you need to have a reference at the position in which you want to perform the addition or removal, otherwise the operation is O(N).
+
+Disadvantage - : There is no randome access.
+
+Note ---:::>>>>   Most of the people say that advantage of dynamic array over linked list is that we can add elements in array when memory is excess but dynamic array create another memory area for array element whereas linked list doesn't create memory for all elements even it occupy area for new element only.
