@@ -9,3 +9,12 @@ The main advantage of linked list is that you can add or remove element at any p
 Disadvantage - : There is no randome access.
 
 Note ---:::>>>>   Most of the people say that advantage of dynamic array over linked list is that we can add elements in array when memory is excess but dynamic array create another memory area for array element whereas linked list doesn't create memory for all elements even it occupy area for new element only.
+
+
+Dummy Node in Linked List
+----------------------------
+Definition : a dummy node at the front/end of the list that is there only to reduce the need for special-case code in the linked-list operations. It is an empty template to build new nodes later. problem here is we don't have any head node. We only have pointer to target node only.
+
+When working with linked lists, it’s common to encounter some weird edge cases when growing a zero-element list into a one-element list or shrinking a one-element list to a zero-element list, since in those cases you typically need to modify some external head and tail pointers. One technique that simplifies the logic in these cases is to add dummy nodes to the linked list. A dummy node is a node that’s technically a part of a linked list, but is specifically intended to signify “the start of the list” or “the end of the list.”
+
+Sometimes, it's better to traverse using a "dummy" node and to keep head at the head.
